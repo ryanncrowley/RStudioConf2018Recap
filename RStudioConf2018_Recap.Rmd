@@ -1,0 +1,602 @@
+---
+title: "Recap rstudio::conf2018"
+author: 'Ryann Crowley'
+date: '2018-02-13'
+header-includes:
+  - \usepackage{color}
+---
+
+```{r setup, include=FALSE}
+library(emo)
+library(jpeg)
+library(knitr)
+```
+
+```{r, out.width="75%", echo=FALSE, fig.align="center"}
+
+include_graphics("img/RStudioConf2018.png")
+
+```
+
+***
+
+##Details
+`rstudio::conf2018` was held on February 2nd and 3rd in beautiful sunny San Diego, California `r emo::ji("sunny")``r emo::ji("surfing")`. It was a high energy atmosphere with over 1200 local, regional, national and international users in attendance.  
+
+```{r, fig.align="center", out.width="75%", echo=FALSE}
+
+include_graphics("img/OpeningKeynote.jpg")
+
+```
+
+The conference was well organized and staffed. The talks were set up with tables, power cords, and three large monitors to provide a good view for everyone in attendance. The conference seemed on the verge of splurging in regard to location `r emo::ji("location")`, venue, food `r emo::ji("food")`, lounges, professional headshots, t-shirts `r emo::ji("shirt")`, goodie bags `r emo::ji("bag")`, and the social functions `r emo::ji("party")`.  My `rstudio::conf` experience was a far cry from what I've grown accustom to at academic based conferences where you wonder where your registration fee goes.  Well done `rstudio::conf`!! 
+
+###What did others think?  The public chatter I've encountered has been overwhelmingly positive.
+
+<blockquote class="twitter-tweet" data-lang="en", size = "50%"><p lang="en" dir="ltr"></p>&mdash;
+<a href="https://twitter.com/tanyacash21/status/960214987724636160">\@tanyacash21</a>
+</blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"></p>&mdash;
+<a href="https://twitter.com/ZazzValette/status/960210182633537536">\@ZazzValette</a>
+</blockquote>
+
+***
+
+##RStudio
+The content of this conference was focused on the suite of RStudio products and opportunities for extending and contributing to product development.  
+
+**1.** RStudio - an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management
+
+**2.** RStudio Supported Packages - The RStudio team contributes code to many R packages and projects, including the `tidyverse`, `shiny`, `rmarkdown`.
+```{r, out.width="50%", echo=FALSE, fig.align="center"}
+
+include_graphics("img/RStudioPackages.jpg")
+
+```
+
+**3.** For cost products such as RStudio server, RStudio server pro, and RStudio connect, that deliver teams productivity, security, centralized management, metrics, and commercial support that professional data science teams need to develop at scale.
+
+* RStudio server at $995 per year per user
+* RStudio server pro at $9,995 per year per server (unlimited users)
+* RStudio connect at $14,995 per year base, $24,995 standard, $74,995 enterprise
+  
+Note: educational and non-profit rates are available.
+
+***
+
+##Schedule
+The conference packed approximately 60 talks and two keynotes into 2 days with the option of attending a focused two day workshops prior to the conference.  In the span of 2 days, I attended 2 keynotes, 2 fireside chats, and over 20 talks.  Almost too much information!! It was difficult to choose among the 3 concurrent sessions but my mind was at ease knowing that all sessions were being recorded and would be available after the conference. Recorded session are appreciated!  After taking a breather and digesting the sessions I attended, I'll start to explore the treasure-trove of content that still remains.
+
+###Workshops
+Workshops were offered that catered to beginners, intermediate, and advanced users.  The conference talks were primarily primers and demonstrations of tools, resources, and opportunities.  For those interested in focused on instruction, the workshop materials would be your best bet.
+
+
+- [Intro to R & RStudio](https://github.com/AmeliaMN/IntroToR), [Amelia McNamara](http://www.science.smith.edu/~amcnamara/), [\@AmeliaMN](https://twitter.com/AmeliaMN)
+
+- [Data Science in the Tidyverse](https://github.com/cwickham/data-science-in-tidyverse), [Charlotte Wickham](http://cwick.co.nz/), [\@cvwickham](https://twitter.com/cvwickham)
+
+- [Intro to Shiny & R Markdown](https://github.com/mine-cetinkaya-rundel/rstudioconf-2018-intro-shiny-rmarkdown), [Mine Çetinkaya-Rundel](http://www2.stat.duke.edu/~mc301/), [\@minebocek](https://twitter.com/minebocek)
+
+- [Applied Machine Learning](https://github.com/topepo/rstudio-conf-2018), [Max Kuhn](https://github.com/topepo)
+
+- [Intermediate Shiny](https://github.com/jcheng5/shiny-training-rstudioconf-2018), [Joe Cheng](https://github.com/jcheng5), [\@jcheng](https://twitter.com/jcheng)
+
+- [Extending the Tidyverse](http://rstd.io/tidy-tools), [Hadley Wickham](https://github.com/hadley), [\@hadleywickham](https://twitter.com/hadleywickham)
+
+- [What They Forgot to Teach You About R](https://github.com/jennybc/what-they-forgot) (aka Getting S*%! Done in R),
+[Jenny Bryan](https://github.com/jennybc), [\@JennyBryan](https://twitter.com/JennyBryan)
+
+- [Big Data with R](https://github.com/rstudio/bigdataclass2018/), [Edgar Ruiz](https://www.linkedin.com/in/edgararuiz/), [\@theotheredgar](https://twitter.com/theotheredgar)
+
+- [Tidyverse Train-the-Trainer](https://github.com/rstudio-education/teach-the-tidyverse), [Garrett Grolemund](https://github.com/garrettgman), [\@statgarrett](https://twitter.com/statgarrett)
+
+*** 
+
+```{r, out.width="100%", echo=FALSE, fig.align="center"}
+
+include_graphics("img/Schedule.jpg")
+
+```
+
+***
+##Online Resources
+
+Recorded streams of the conference are available :
+
+* [rstudio::conf 2018 | Official Live Stream](https://www.youtube.com/watch?v=ogy7rHWlsQ8)
+
+* [rstudio::conf 2018 | Offiical Live-stream Day 2](https://www.youtube.com/watch?v=Ol1FjFR2IMU&feature=youtu.be)
+
+* [rstudio::conf 2018 | Machine Learning with R and TensorFlow](https://www.youtube.com/watch?v=atiYXm7JZv0)
+
+
+And two people have repos that have accumulated the slides and materials from most the talks, [matthewravey](https://github.com/rstudio/rstudio-conf/tree/master/2018) and [simecek](https://github.com/simecek/RStudioConf2018Slides).
+
+***
+
+
+##Twitter
+
+As a **brand new** twitter user ([\@ryann_crowley](https://twitter.com/ryann_crowley)), I was amazed at how quickly folks were posting about session content...many of the tweets were posted WHILE IN THE SESSIONS.  A collection of conference specific tweets can be found [#rstudioconf hashtag](https://twitter.com/hashtag/rstudioconf?f=tweets&vertical=default).
+
+To assist with the sorting and filtering of the numerous tweets, Garrick Aden-Buie, who wasn't actually able to attend `rstudio::conf2018`, created a [shiny app](https://gadenbuie.shinyapps.io/rsconf_tweets/) to assist with sorting, filtering, and searching capabilities and is applicable to any twitter dataset.
+
+To get a sense of the twitter madness, you could explore the `rstudio::conf2018` tweets yourself using Mike Kearney's [`rtweet`](http://rtweet.info/) package.  Mike's vignette includes some awesome analysis and visualizations of twitter stats from `rstudio::conf2018`.
+
+
+```{r,out.width="50%", out.extra='style=padding:10px; display: inline-block;"', echo=FALSE}
+
+include_graphics(c("img/timefreq.png", "img/sentiment.png", "img/network.png", "img/tidyverse.png"))
+
+```
+
+
+I don't want to get too distracted by the twitter analyses. It would be fun topic for another meetup. I wanted to give an overview of a few of my favorite talks, and some general themes that I took away from the conference.  
+
+***
+
+##The Conference
+
+###Keynote
+
+####[To the `tidyverse` and beyond: Challenges for the Future in Data Science](http://www.dicook.org/files/rstudio/#1) 
+[Diane Cook](http://www.dicook.org/), [\@visnut](https://twitter.com/visnut)
+
+
+A major take away from the keynote was the evolution of plots to be used for inference.  Could you imaging making inferential decisions based on the visualization of the data?  
+
+ > "Now we can start doing statistics with plots, actually statistical inference"
+
+* Proposed visual inference protocols:
+    + Rorschach protocol: 
+         - Before looking at the data, plot a lot of null samples, to get a sense for what might be seen when there really is nothing to be seen.
+    + Lineup protocol: 
+         -  Embed the plot of the data among a field of plots of null samples. Ask someone who's not related to you, to pick the one that's different. If they pick the data plot, this is evidence for the data to have structure that is significantly different from what might be expected by chance.
+
+```{r, fig.align="center",  out.width="50%", echo=FALSE}
+
+include_graphics("img/DiCook_datavis.jpg")
+
+```
+
+It's a good old fashioned police line-up!!  Make your visualization, then *scramble* the data and make multiple plots. If someone not familiar with the data can't pick actual data vs scrambled for most striking, maybe there's no important relation!
+
+Is there a package for that...you bet!
+ 
+```{r, fig.align="center",  out.width="50%", echo=FALSE}
+
+include_graphics("img/DiCook_nullabar.jpg")
+
+```
+
+`Nullabor` lets you create a *lineup* of your data visualizations without looking at the data first. The example above is creating 12 random plots (one of which is the real data).
+
+
+```{r, fig.align="center",  out.width="50%", echo=FALSE}
+
+include_graphics("img/DiCook_lineup.jpg") 
+
+```
+
+Last note, regarding the importance of visualization,
+
+ > "You can get statistical significance really cheaply these days" due to large sample sizes (and ability to work with them) -- Di Cook
+
+What her protégé had to say about it...
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"></p>&mdash;
+<a href="https://twitter.com/hadleywickham/status/959482436072570880">\@hadleywickham</a>
+</blockquote> 
+ 
+*** 
+
+###Tidyverse
+
+####[Teach the `tidyverse` to beginners](https://github.com/rstudio/rstudio-conf/tree/master/2018/TeachTidyverse-DavidRobinson)
+[David Robinson](http://varianceexplained.org/), [\@drob](https://twitter.com/drob)
+
+*Note. the `tidyverse` is a set of cohesive `R` packages.*
+
+The key to teaching `R`...
+
+> "Have goals for what you want your students to do, and start them doing it as early as possible." David Robison
+
+```{r,out.width="50%", fig.align="center", echo=FALSE}
+
+include_graphics(c("img/TeachTidyverse_workflow.jpg", "img/TeachTidyverse_tools.jpg")) 
+
+```
+
+***
+
+Why `tidyverse`?
+
+* It's intuitive
+
+* It's powerful
+
+* Students can quickly explore their data and create visualizations
+
+* It's overall language is consistant across functions within packages 
+
+***
+
+```{r,out.width="75%",fig.align="center", echo=FALSE}
+
+include_graphics(c("img/TeachTidyverse_studentswant.jpg", "img/TeachTidyverse_studentslater.jpg")) 
+
+```
+
+
+```{r,out.width="75%", fig.align="center", echo=FALSE}
+
+include_graphics("img/TeachTidyverse_later.jpg") 
+
+```
+
+***
+
+Traditional learning curve for `R`, when instruction began with data structures and programming statements.
+
+```{r,out.width="75%", fig.align="center", echo=FALSE}
+
+include_graphics(c("img/TeachTidyverse_karatekid.jpg", "img/TeachTidyverse_learningcurve.jpg")) 
+
+```
+
+The `tidyverse` can closely approximate the blue dashed learning curve...actually inversing the historical learning curve of `R`.
+
+* Two examples that do not fit this model in both examples the students are in interested in *more* than understanding the data.  The following types of students might benefit from a different teaching strategy (something other than `tidyverse` first).
+    - students with experience programming and will want to write functions
+    - students with experience doing matrix algebra
+
+
+***
+
+
+
+####[The lesser known stars of the `tidyverse`](https://github.com/robinsones/rstudio-conf-2018-talk)
+
+[Emily Robinson](https://robinsones.github.io/), [\@robinson_es](https://twitter.com/robinson_es)
+
+The following set of functions within the `tidyverse` (notation package::function) were discussed. 
+
+A quick reminder, documentation for functions and packages can be googled and/or displayed in the RStudio help window by typing `?package::function()` or `?function()`
+
+```{r, fig.align="center",  out.width="75%", echo=FALSE}
+
+include_graphics( "img/LesserKnown_review.jpg") 
+
+```
+
+Listed below are a few details for three functions.
+
+#####`reprex` is short for **rep**roducable **ex**ample. `reprex` helps you make a reproducible examples and provides the functionality to create a small dataset of fake data.  It is definitely helpful when you are seeking assistance from an online community for a coding issue you have encountered (online coding communities such as #rstats or StackOverflow) .  Providing a reproducible example provides a wealth of information to anyone interested in assisting.  There is a social protocol for asking for free help.  The goal is to provide ALL of the information necessary...of course without burdening with TOO much information. It's a delicate dance. `reprex` definitely helps!
+  
+*** 
+
+#####`skimr` will provide a concise set of descriptive statistics (and for continuous variables histogram plots) for your entire dataset.  Listed below is a sample output and a nice caricature of the joy it can induce.
+
+
+```{r, fig.align="center",  out.width="75%", echo=FALSE}
+
+include_graphics( "img/SkimPackage.jpg") 
+
+```
+
+***
+
+#####`fct_relevel` allows you to specify the order of an ordinal variable (variable with response options on a continuum, for example "less" to "more" or "high" to "low").  As a default, `R` will order a character string alphabetically.  In the example below, `fct_relevel` has been set to reorder the variable by frequency.
+
+
+`ggplot(aes(response)) + geom_bar()`
+
+
+```{r, fig.align="center",  out.width="50%", echo=FALSE}
+
+include_graphics("img/LesserKnown_barchart.png") 
+
+```
+
+Solution: `fct_relevel()` to manually order the factor
+
+`ggplot(aes(x = fct_relevel(response, "Rarely", "Sometimes", "Often", "Most of the time"))) + geom_bar()`
+
+
+```{r, fig.align="center",  out.width="50%", echo=FALSE}
+
+include_graphics("img/LesserKnown_fct_relevel.png")
+
+```
+
+***
+
+####[Augmenting data exploration with interactive graphics](https://talks.cpsievert.me/20180202)
+
+[Carson Sievert](http://cpsievert.me/), [\@cpsievert](http://twitter.com/cpsievert/)
+
+Interactive graphics augment exploration and allows one to search information quickly without fully specified questions (Unwin & Hoffmann, 2000). Multiple linked views are the optimal framework for posing queries about data (Buja, Cook, & Swayne 1996)
+
+
+With `crosstalk` you can create standalone HTML output that does not require a web server!!
+
+
+`crosstalk` examples: 
+
+* [Examine multiple relationships over time](https://talks.cpsievert.me/20180202/#9)
+
+* [Animation of relationships over time](https://talks.cpsievert.me/20180202/#25) 
+
+* [Map and cooresponding relationships by time](https://talks.cpsievert.me/20180202/#28)
+
+* [Map selection(zooming) selecting data displayed](https://talks.cpsievert.me/20180202/#29)
+
+***
+
+###Four talks touched on challenges/successes of adopting `R` and/or supporting the use of `R` as an organization  
+
+##### A SAS-to-R success story - [Elizabeth J. Atkinson](http://www.mayo.edu/research/faculty/atkinson-elizabeth-beth-j-m-s/bio-00083520)
+
+The [Mayo Clinic](https://www.mayoclinic.org/) switched to R after a SAS licensing increase of 10x!!
+
+Mayo's story....
+
+* Infrastructure 
+     - 3 Linux systems (CentOS version 6)
+     - 3 versions of R
+           + common packages repositories - CRAN, Bioconductor, Github, local
+           + 470 R users
+
+* Challenges
+     - Dealing with the established SAS infrastructure training, macros, workflows
+     - R infrastructure training need to be developed
+     - Time constraints (leadership, users)
+     - Different learning styles and levels of R knowledge
+
+* Plan
+     - $
+     - R champions (additional IT support)
+     - RStudio Server Pro (made a big difference in adoption)
+     - Identified popular local SAS macros, translated to R (arsenal)
+     - Education
+         + Expanded new employee training
+         + Seminars, videos, drop-in sessions
+     - Support
+         + on call support, help desk
+         + distribution list with regular R tips
+     - Motivation (one day a month)
+         + survival class
+         + data challenges
+         + book clubs (data mining, hierarchical models)
+         + markdown
+         + etc.
+     - Future ideas
+         + mock projects (that are safe places for new users to practice putting it all together)
+         + add tools to toolkit (templates)
+* Lessons learned
+      - motivate project leads (not just the programmers)
+      - target presentations to different types of R users
+      - larger conversation - what skills do we need for the future!
+
+How to increase #rstats adoption from SAS? Create packages with SAS macros, use Rstudio, and support training for new users! Make R fun! Increase motivation with the awesome things R can do: Rmarkdown and Shiny for example.
+
+***
+
+#####[Training an army of new data scientists](https://www.slideshare.net/Pinnacle_Twitter/r-studio-conference) - [Marco Blume](https://www.pinnacle.com/en/betting-resources/author/marco-blume) at [Pinnacle](https://www.pinnacle.com/en/)
+
+Pinnacle is...
+
+* Large online international sportsbook (~ 450 employees in 6 offices)
+* Been around for 20 years
+* Unique model that relies heavily on data science
+* Risk management, trading (similar to financial markets)
+
+Training an Army of Data Scientist at Pinnacle using Datacamp
+
+* Employees at all levels of the organization needs to make data informed decisions
+* Pinnacle developed five levels of `R` mastery based on work requirements assigning specific Datacamp courses 
+    - lowest level included 8 hours of coursework
+    - highest level of mastery completed 75 hours of coursework and a capstone project with the help of a mentor that culminated into a markdown or shiny application
+
+Lessons Learned
+
+* RStudio Server Pro - allows you to setup/manage environments for Junior SD and control access to data
+* RStudio Connect - is good for easy deployment/sharing
+* Anyone can become a Junior Data Scientist - any background
+* Motivation is key (use FUN datasets!)
+* Experts/previous trainees helping
+* Internal ecosystem of packages to build upon
+ 
+***
+
+##### Accelerating cancer research with `R` - [Sandy Griffith](http://www.sandradgriffith.com/)
+
+Recap by [Sharla Gelfand](https://sharlagelfand.netlify.com/posts/rstudio-conf-2018/)
+
+
+Flatiron choose `R` over SAS for her team, the steps that went into that choice, then cultivating and sustaining a strong `R` team. Cultivating started with a lot of support -- an **internal `R` package, user group, Slack channels, training, and hiring**. She then focused on sustaining -- once everyone is proficient, there's a need to focus on **consistency and contribution, via growing internal packages, and focusing on reproducibility, quality control, and standardization**.
+
+She acknowledged that there are challenges now -- devoting time to infrastructure, internal package management, and coordinating `R` usage outside of the Quantitative Sciences team among them, all areas of potential improvement for a company that is quite mature in `R`.
+
+Sandy is biking through the desert post conf, but I will link her slides (and add more detail on the talk if they jog my memory -- I can tell I'm forgetting a lot) once/if they're available!
+
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"></p>&mdash; 
+<a href="https://twitter.com/jent103/status/959592149862858754">Post of talk by @jent103</a>
+</blockquote>
+
+***
+
+####[`tidycf`: Turning analysis on its head by turning cash flows on their sides](https://www.slideshare.net/tanyacash/rapid-prototyping-data-products-in-shiny-rstudioconf-2018) 
+
+[Emily Riederer](https://twitter.com/EmilyRiederer) at [Capital One](https://www.capitalone.com/)
+
+* At Capital One the business analytics has been done in different tools (spreadsheets, PowerPoint, word processor, databases, BI tools, etc.) with poor documentation and reproducibility.
+
+* After noticing nuanced business decisions are driven by a remarkably standard analytical tools and techniques.  Capital One created an internal tidy cash flow (`tidycf`) package to train new users, improve efficiency, reproducible and reduce error.  After consolidating and reorganizing the data at Capital One a single `R` package was developed to run statistical analyses alongside cash flow analyses (with everyone using the same dataset!!)
+
+
+
+```{r,out.width="75%", fig.align="center", echo=FALSE}
+
+include_graphics("img/tidycf_model_old.jpg") 
+
+```
+
+
+```{r,out.width="75%", fig.align="center", echo=FALSE}
+
+include_graphics("img/tidycf_model_new.jpg")
+
+```
+
+* Process used to create a package of tools (`tidycf`) to match user/organizational needs:
+    - Ran through a set of developed functions to automate common work tasks 
+    - Removed the specifics for each function to create wired frames (skeleton/template) 
+    - After the frames were in place used them to create a package of tools
+    - Each template has code chunks and text commentary for the analysts (combining syntax, output, commented documentation explaining the process, and narrative text interpreting the result)
+    - Actually taught users how to use `R` with the templates 
+    - Again, the template combines the analysis WITH the documentation
+
+* Goal was to get engagement from the community and once comfortable convert the community from users to developers 
+
+* Mission = Success!!  Capital One has increased the adoption of `R` and the creation of new tools across the company.
+
+* Key components to success
+    - Teaching analyst more about data science, best practices, and reproducible research
+    - Identifying that business and research have different languages but they can be translated
+    - Getting user input and feedback during development in order to obtain tools that matched user and company need 
+
+***
+
+#####Take away from the set of talks - 
+* Three hurdles (aka. opportunities)
+    - organizing data to make actionable
+    - developing supports for onboarding users
+    - maintaining a consistent and shared environment and tools
+* `R` Administrator might be the next budding position in the data science workforce
+
+
+Worthy note on "change management" and "transition management" 
+
+> @earino on bringing people from SAS or excel to #rstats: “change management is about whether new tools are available. But there’s an identity issue too: people were an expert in their tool and now they are going to be a beginner. That’s transition management” #rstudioconf
+
+***
+
+###RStudio Products
+
+####[Sharing analysis results with RStudio Connect](https://github.com/trestletech/rsconf-2018), [Jeff Allen](https://github.com/trestletech)
+
+
+Stanges of `R` Adoption
+
+```{r,out.width="100%", fig.align="center", echo=FALSE}
+
+include_graphics("img/StagesOfAdoption.png") 
+
+```
+
+***
+
+####[RStudio 1.1 new features](https://kevinushey-2018-rstudio-conf.netlify.com/slides.html#1) 
+[Kevin Ushey](http://kevinushey.github.io/), [\@kevin_ushey](https://twitter.com/kevin_ushey)
+
+* A tour of the new features that became part of the v1.1 release of the RStudio IDE:
+
+    + A Terminal tab, giving you access to a shell directly within the IDE,
+    
+    + An Object Explorer, for inspecting deeply-nested R objects,
+    
+    + A modern theme, including a dark IDE theme to accompany the dark editor themes,
+    
+    + A Connections tab, for managing connections to external SQL data stores,
+    
+    + Improvements to Git integration, making it easier to manage git branches from within the IDE, and
+    
+    + A few useful *quality of life* features
+    
+          - Color in the Console
+          
+          - Addins list is searchable
+          
+          - Commands are searchable using `Ctrl + R` with the cursor in the Console pane to search that list
+
+
+***
+
+####[Parameterized R Markdown reports with RStudio Connect](https://github.com/rstudio/rstudio-conf/tree/master/2018/Fruit_For_Thought--Aron_Atkins)
+
+[Aron Atkins](http://gweep.net/~aron/), [\@aronatkins](https://twitter.com/aronatkins)
+
+*In RStudio Connect, you can create one report with a few input options (parameters) to filter/sort the underlying data creating a dynamic report without changing the actual report!!
+
+* RStudio Connect interface will send reports on a schedule and keep a history of reports generated (all other Connect features are also available)
+
+* Parameterized report versus a shiny web application 
+    - Parameterized reported create a static output
+    - Shiny is interactive but not maintained or output saved
+
+***
+
+####[The R Admin is rad: A guide to professional R tooling and integration](https://github.com/nwstephens/r-admin-2018/blob/master/R-Admin-2018.pdf) - [Nathan Stephens](https://github.com/nwstephens)
+
+https://rviews.rstudio.com/2017/06/21/analytics-administration-for-r/
+
+`R` Admin is position and set of tasks that have till now fell on the shoulders of a willing and IT lingual `R` user.
+
+```{r, fig.align="center",  out.width="75%", echo=FALSE}
+
+include_graphics( "img/RAdmin_gap.jpg") 
+
+```
+
+`R` admin roll is to work with IT to:
+
+* Establish `R` as the analytic standard
+* Perform `R` tooling
+* Integrate `R` into other systems
+
+***
+
+##Stickers
+
+I had no idea stickers were so interesting or important...and I may have let you down.  Checkout the sticker hype below.  Next time, I'll make an effort to bring back stickers for everyone!!
+
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"></p>&mdash; 
+<a href="https://twitter.com/JoeDot2/status/962396007135772672">\@JoeDot2</a>
+</blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"></p>&mdash;
+<a href="https://twitter.com/tpsteiner/status/960596717589610496">\@tpsteiner</a>
+</blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"></p>&mdash;
+<a href="https://twitter.com/shermstats/status/960735666253393920">\@shermstats</a>
+</blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"></p>&mdash;
+<a href="https://twitter.com/CivicAngela/status/960963852174331904">\@CivicAngela</a>
+</blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"></p>&mdash;
+<a href="https://twitter.com/ellisvalentiner/status/961770958334910464">\@ellisvalentiner</a>
+</blockquote>
+
+***
+
+##Final Notes
+
+This is just a brief recap of a few talks.  Not discussed due to time were a keynote on utilizing TensorFlow for deep learning algorithms and additional talks on unpacking vectors, data “rectangling, debugging techniques, drill down reporting with shiny, modeling in the `tidyverse` and working with firewalls...all were worthy candidates for discussion and I'm sure the same is true for the talks I was unable to attend. I hope this brief but spectacular presentation introduced you to a set of new adventures.
+
+***
+
+##Other Fun Stuff
+
+* `R` has moved well beyond academia.  
+
+* I met an employee of the British Columbia government and learned they use `R`, RStudio, and GitHub to support free and open source projects. The provide public access to all of their work including their [bcgov GitHub organization](https://github.com/bcgov) and an `R` package [`bcmaps`](https://github.com/bcgov/bcmaps) that contains the spatial map layers for the province.
+
+* Registration is open for `rstudio::conf2019` (1/15-1/19) in Austin, Tx.
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
